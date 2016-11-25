@@ -1,3 +1,3 @@
-== Julie's Personal Blog
+## Julie's Personal Blog
 
 * Ruby on Rails Application
