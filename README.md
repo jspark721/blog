@@ -1,3 +1,5 @@
 ## Julie's Personal Blog
 
-* Ruby on Rails Application
+### Front-end Developer, Designer, Foodie, Traveler, Photographer, Dog Lover
+
+* Made with Ruby on rails
