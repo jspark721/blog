@@ -2,12 +2,11 @@
   <h1 class="title">
       <%= @post.title %>
   </h1>
-
-  <p class="date">
-      Posted <%= time_ago_in_words(@post.created_at) %> ago
-  </p>
-
   <p class="body">
       <%= @post.body %>
+  </p>
+  <p class="date">
+      Posted <%= time_ago_in_words(@post.created_at) %> ago
+      | <%= link_to 'Edit', edit_post_path(@post) %>
   </p>
 </div>
