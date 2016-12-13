@@ -37,6 +37,7 @@ a {
   height: 100%;
   background: #f5f7f9;
   padding: 7em 0 0 0;
+  font-size: 0.9em;
   border-right: 1px solid #d6dce0;
   #logo {
     position: absolute;
@@ -52,9 +53,9 @@ a {
     padding-right: 3em;
     .category {
       font-weight: 700;
-      font-size: 0.7em;
+      font-size: 1em;
       text-transform: uppercase;
-      color: #33acb7;
+      color: #8ea5eb;
     }
     li {
       padding: .5em 0;
@@ -63,13 +64,13 @@ a {
         text-decoration: none;
         transition: all .4s ease;
         &:hover {
-          color: #33acb7;
+          color: #8ea5eb;
         }
       }
     }
     .active {
       a {
-        color: #33acb7;
+        color: #8ea5eb;
       }
     }
   }
@@ -89,10 +90,10 @@ a {
   padding: .5em 1.5em;
   border-radius: 1.5em;
   &:hover {
-    border: 1px solid #33acb7;
-    color: #33acb7;
+    border: 1px solid #8ea5eb;
+    color: #8ea5eb;
     a {
-      color: #33acb7 !important;
+      color: #8ea5eb !important;
     }
   }
 }
@@ -139,7 +140,7 @@ a {
         color: #2a2f35;
         font-size: 1.5em;
         &:hover {
-          color: #33acb7;
+          color: #8ea5eb;
         }
       }
     }
@@ -221,7 +222,7 @@ a {
         line-height: 1.75;
       }
       a {
-        color: #33acb7;
+        color: #8ea5eb;
         font-weight: 700;
         text-decoration: none;
       }
@@ -253,8 +254,8 @@ a {
 		border-radius: 1.5em;
 		margin-left: .5em;
 		&:hover {
-			border: 1px solid #33acb7;
-			color: #33acb7;
+			border: 1px solid #8ea5eb;
+			color: #8ea5eb;
 		}
 	}
 }
