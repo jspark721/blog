@@ -138,15 +138,16 @@ a {
         font-weight: 500;
         text-decoration: none;
         color: #2a2f35;
-        font-size: 1.5em;
+        font-size: 1em;
         &:hover {
           color: #8ea5eb;
         }
       }
     }
-    .date_and_author {
+    .date{
       color: #9eafba;
       margin: .5em 0 0 0;
+      font-size: .8em;
     }
   }
   #post_content {
@@ -162,9 +163,10 @@ a {
       font-size: 1.1em;
       line-height: 1.75;
     }
-    .date_and_author {
+    .date {
       color: #9eafba;
       margin: .5em 0 2em 0;
+      font-size: .8em;
     }
     #comments {
       h2 {
@@ -185,12 +187,14 @@ a {
             text-transform: uppercase;
           }
           .comment_body {
-            font-size: 1.2em;
+            font-size: 1em;
             margin: 0.2em 0 0 0;
           }
           .comment_time {
             margin-top: 1.2em;
-            font-size: .8em;
+            font-size: 0.5em;
+            color: #9eafba;
+
           }
         }
         .button {
